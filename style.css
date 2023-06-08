@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #1e1e2e;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.div {
+  display: flex;
+  justify-content:center;
+}
+
+.center {
+  text-align: center;
+  padding-top: 300px;
+  color: #cdd6f4;
+  font-size:50px;
+}
+.oneofem {
+  text-align: center;
+  padding-top: 100px;
+  color: #cdd6f4;
+  font-size:50px;
+}
+.centerb {
+  text-align: center;
+  padding-top: vh50;
+  color: #cdd6f4;
+  font-size:30px;
+  transition:0.2s;
+}
+.centerb:hover{
+  transition:0.2s;
+  font-size:35px;
+  color:#b4befe;
+}
+.centerba {
+  text-align: center;
+  color: #cdd6f4;
+  font-size:35px;
+  padding-bottom:2px;
+}
+.contenta {
+  text-align: center;
+  color: #cdd6f4;
+  font-size:20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom:100px;
+}
+.kdfs {
+  padding-bottom: 3000px; 
+}
+
+.centerc {
+  text-align: center;
+  padding-top: vh50;
+  color: #cdd6f4;
+  font-size:30px;
+  padding-bottom: 60px;
+}
+.pade {
+  font-size:1px;
+
+  padding-bottom:500px;
+}
+
+.centerg {
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-item {
+  color: #cdd6f4;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+img {
+  border-radius: 30%;
+  border-collapse: separate; 
+}
+
+.topnav {
+  overflow: hidden;
+  position:fixed;
+  width:100%;
+  top:0px;
+  background-color: #313244;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #cdd6f4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition:0.2s;
+}
+.topnav .what {
+  float: right;
+  display: block;
+  color: #f9fafa;
+  text-align: center;
+  padding: 14px 16px;
+  padding-right: 40px;
+  text-decoration: none;
+  font-size: 20px;
+  transition:0.2s;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  /* border-top: 5px solid #636483; */
+  text-decoration: underline;
+  color: black;
+  transition:0.2s;
+}
+
+.topnav a.active {
+  background-color: #b4befe;
+  color: white;
+}
+.collapsible {
+  background-color: #313244;
+  color: #cdd6f4;
+  cursor: pointer;
+  padding: 18px;
+  width: 335px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  transition: 0.2s;
+  
+}
+
+.active, .collapsible:hover {
+  background-color: #b4befe;
+}
+
+.content {
+  padding: 0 18px;
+  width:300px;
+  display: none;
+  overflow: hidden;
+  background-color: #313244;
+  transition: 0.2s;
+}
