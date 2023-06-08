@@ -1,16 +1,83 @@
-<!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+
+  <title>Python ASA Resources</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
- <h1>A</h1>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="thisweek.html">This lesson</a>
+    <a href="practices.html">Practices</a>
+    <a href="resources.html">Resources</a>
+    <a href="/#advanced">Advanced</a>
+    <a class="what">Python ASA</a>
+  </div>
 
+
+  <h1 class="center">Python ASA</h1>
+  <a href="/thisweek.html">
+    <h1 class="centerb" style="padding-bottom: 300px;">Today's Lesson</h1>
+  </a>
+
+
+<div class="div" style="padding-bottom: 300px;">
+  
+  <button type="button" class="collapsible">Python Basic</button>
+  
+    <div class="content">
+          <a href="/practices.html">
+      <h1 class="centerb">Practices</h1>
+    </a>
+      <a href="/resources.html">
+      <h1 class="centerb">Resources</h1>
+    </a>
+  </div>
+  <button type="button" class="collapsible">Python Advanced</button>
+  
+    <div class="content">
+          <a href="/apractices.html">
+      <h1 class="centerb">Practices</h1>
+    </a>
+      <a href="/aresources.html">
+      <h1 class="centerb">Resources</h1>
+    </a>
+  </div>
+</div>
+<h1 class="centerb" style="padding-bottom: 50px;">Boxuan Shan, Evan Sun, Patrick Young</h1>
+  <!-- <div id="advanced">
+    <h1 class="center">Advanced</h1>
+    <div class="div">
+      <a href="/apractices.html">
+        <h1 class="centerb">Practices</h1>
+      </a>
+      <h1 class="centerb"> | </h1>
+      <a href="/aresources.html">
+        <h1 class="centerb">Resources</h1>
+      </a>
+      <h1 style="padding-bottom: 100px;"> </h1>
+    </div>
+  </div> -->
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
 </body>
 
 </html>
