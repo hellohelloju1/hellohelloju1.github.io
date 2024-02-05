@@ -141,7 +141,7 @@ img {
   text-align: center;
   outline: none;
   font-size: 20px;
-  transition: 0.2s;
+  transition: 0.5s;
   
 }
 
@@ -156,4 +156,9 @@ img {
   overflow: hidden;
   background-color: #313244;
   transition: 0.2s;
+}
+.centerpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
